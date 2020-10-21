@@ -118,7 +118,6 @@ import exampleSliceReducer from './exampleSlice'
 
 const store = configureStore({
   reducer: exampleSliceReducer,
-  // Note that this will replace all default middleware
   middleware: getDefaultMiddleware =>
     getDefaultMiddleware({
       immutableCheck: {
